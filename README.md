@@ -44,7 +44,7 @@ This will overwrite the existing files in the network directory. Note that there
 Parameters to run the simulation, including run-time, inputs, recorded variables, and networks are stored in config.json and can modified with a text editor.
 
 ## Plotting the voltage traces
-Run the following command to plot the voltage traces and save them to .png files:
+Before running the following command to plot the voltage traces and save them to .png files, unzip the membrane_potential.h5 file inside the output directories:
 ```bash
 $ python plot_traces_mod_check.py\
     --bmtk_json_path config.simulation.aibs_axon_mechanism_check.iclamp.json\
