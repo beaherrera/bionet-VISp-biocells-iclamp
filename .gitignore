@@ -18,6 +18,8 @@ figs*/*
 .conda/conda-bld/**/*
 **/*.code-workspace
 **/.coverage
+**/*.log
+**/*.pdf
 output_axon_iclamp/*
 output_axon_iclamp_150pA*/*
 output_axon_iclamp_350pA*/*

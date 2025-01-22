@@ -56,5 +56,5 @@ $ python plot_traces_mod_check.py\
 
 Run the following command to save the figs to a pdf file:
 ```bash
-$ python image_to_pdf.py figs cantata-bionet-VISp-biocells-iclamp-mechanism_check-dL5
+$ python images_to_pdf.py figs cantata-bionet-VISp-biocells-iclamp-mechanism_check-dL5
 ```
