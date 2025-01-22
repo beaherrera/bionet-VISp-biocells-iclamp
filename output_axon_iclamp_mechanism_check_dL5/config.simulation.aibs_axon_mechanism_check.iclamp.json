@@ -1,0 +1,88 @@
+{
+  "run": {
+    "tstop": 9000.0,
+    "dt": 0.1,
+    "dL": 5.0,
+    "spike_threshold": -15,
+    "nsteps_block": 5000
+  },
+  "target_simulator": "NEURON",
+  "conditions": {
+    "celsius": 34.0,
+    "v_init": -80
+  },
+  "inputs": {
+    "current_clamp_1": {
+      "input_type": "current_clamp",
+      "module": "IClamp",
+      "node_set": {
+        "population": "v1"
+      },
+      "amp": 0.15,
+      "delay": 500.0,
+      "duration": 2000.0,
+      "section_name": "soma",
+      "section_dist": 0.5
+    },
+    "current_clamp_2": {
+      "input_type": "current_clamp",
+      "module": "IClamp",
+      "node_set": {
+        "population": "v1"
+      },
+      "amp": 0.25,
+      "delay": 3500.0,
+      "duration": 2000.0,
+      "section_name": "soma",
+      "section_dist": 0.5
+    },
+    "current_clamp_3": {
+      "input_type": "current_clamp",
+      "module": "IClamp",
+      "node_set": {
+        "population": "v1"
+      },
+      "amp": 0.35,
+      "delay": 6500.0,
+      "duration": 2000.0,
+      "section_name": "soma",
+      "section_dist": 0.5
+    }
+  },
+  "output": {
+    "log_file": "./output_axon_iclamp_mechanism_check_dL5/log.txt",
+    "output_dir": "./output_axon_iclamp_mechanism_check_dL5",
+    "spikes_file": "./output_axon_iclamp_mechanism_check_dL5/spikes.h5",
+    "spikes_file_csv": "./output_axon_iclamp_mechanism_check_dL5/spikes.csv",
+    "spikes_sort_order": "time",
+    "overwrite_output_dir": true
+  },
+  "reports": {
+    "membrane_potential": {
+      "cells": {
+        "population": "v1"
+      },
+      "variable_name": "v",
+      "module": "membrane_report",
+      "sections": "soma"
+    }
+  },
+  "components": {
+    "morphologies_dir": "./components/morphologies",
+    "synaptic_models_dir": "./components/synaptic_models",
+    "mechanisms_dir": "./components/mechanisms",
+    "biophysical_neuron_models_dir": "./components/biophysical_neuron_templates/ctdb",
+    "point_neuron_models_dir": "./components/point_neuron_templates"
+  },
+  "networks": {
+    "nodes": [
+      {
+        "nodes_file": "./network_axon_mechanism_check/v1_nodes.h5",
+        "node_types_file": "./network_axon_mechanism_check/v1_node_types.csv"
+      }
+    ],
+    "edges": []
+  },
+  "config_path": "/allen/programs/mindscope/workgroups/realistic-model/beatriz.herrera/arbor-bmtk/bionet-VISp-biocells-iclamp/config.simulation.aibs_axon_mechanism_check.iclamp.json",
+  "config_dir": "/allen/programs/mindscope/workgroups/realistic-model/beatriz.herrera/arbor-bmtk/bionet-VISp-biocells-iclamp"
+}
