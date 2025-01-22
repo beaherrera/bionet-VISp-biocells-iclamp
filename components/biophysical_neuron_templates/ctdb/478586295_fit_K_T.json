@@ -1,0 +1,148 @@
+{
+  "passive": [
+    {
+      "ra": 13.9250097094,
+      "cm": [
+        {
+          "section": "soma",
+          "cm": 1.0
+        },
+        {
+          "section": "axon",
+          "cm": 1.0
+        },
+        {
+          "section": "dend",
+          "cm": 1.4095052386802802
+        },
+        {
+          "section": "apic",
+          "cm": 1.4095052386802802
+        }
+      ],
+      "e_pas": -71.47694206237793
+    }
+  ],
+  "fitting": [
+    {
+      "junction_potential": -14.0,
+      "sweeps": [
+        69,
+        70,
+        71,
+        72
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "celsius": 34.0,
+      "erev": [
+        {
+          "ena": 53.0,
+          "section": "soma",
+          "ek": -107.0
+        }
+      ],
+      "v_init": -71.47694206237793
+    }
+  ],
+  "genome": [
+    {
+      "section": "soma",
+      "name": "gbar_Im",
+      "value": 0.0,
+      "mechanism": "Im"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_Ih",
+      "value": 0.0,
+      "mechanism": "Ih"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_NaTs",
+      "value": 0.0,
+      "mechanism": "NaTs"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_Nap",
+      "value": 0.0,
+      "mechanism": "Nap"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_K_P",
+      "value": 0.0,
+      "mechanism": "K_P"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_K_T",
+      "value": 3.568552557314201e-05,
+      "mechanism": "K_T"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_SK",
+      "value": 0.0,
+      "mechanism": "SK"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_Kv3_1",
+      "value": 0.0,
+      "mechanism": "Kv3_1"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_Ca_HVA",
+      "value": 0.0,
+      "mechanism": "Ca_HVA"
+    },
+    {
+      "section": "soma",
+      "name": "gbar_Ca_LVA",
+      "value": 0.0,
+      "mechanism": "Ca_LVA"
+    },
+    {
+      "section": "soma",
+      "name": "gamma_CaDynamics",
+      "value": 0.00012118326551368739,
+      "mechanism": "CaDynamics"
+    },
+    {
+      "section": "soma",
+      "name": "decay_CaDynamics",
+      "value": 993.4509447563166,
+      "mechanism": "CaDynamics"
+    },
+    {
+      "section": "soma",
+      "name": "g_pas",
+      "value": 0.000559568331783151,
+      "mechanism": ""
+    },
+    {
+      "section": "axon",
+      "name": "g_pas",
+      "value": 0.0005414292450440816,
+      "mechanism": ""
+    },
+    {
+      "section": "dend",
+      "name": "g_pas",
+      "value": 0.0004737021070476008,
+      "mechanism": ""
+    },
+    {
+      "section": "apic",
+      "name": "g_pas",
+      "value": 3.083320847532804e-07,
+      "mechanism": ""
+    }
+  ]
+}
