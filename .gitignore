@@ -26,3 +26,6 @@ output_axon_iclamp_350pA*/*
 output_axon_iclamp_Dec13_2024/*
 output_stub_iclamp*/*
 output_axon_iclamp_mechanism_check/*
+output_axon_iclamp_mechanism_check_dL10/membrane_potential.h5
+output_axon_iclamp_mechanism_check_dL20/membrane_potential.h5
+output_axon_iclamp_mechanism_check_dL5/membrane_potential.h5
