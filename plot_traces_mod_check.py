@@ -76,7 +76,7 @@ def get_nodes_labels_lu(pop):
 
         # nodes nodes_df[['node_ids', 'node_type_id', 'pop_name']].set_index(node_ids)
 
-
+print("| Tag | RMS Error | Delta | Arbor | BMTK |")
 for report_name, report in cfg["reports"].items():
     if report["module"] == "membrane_report":
         # print(cfg['output']['output_dir'])
@@ -108,17 +108,6 @@ for report_name, report in cfg["reports"].items():
                         # fig, ax = plt.subplots(n_nodes, 1, figsize=(15, 4 + n_nodes))
                         fig, ax = plt.subplots(1, 1, figsize=(15, 4))
                         ax.plot(times, data[:, idx], label="bmtk")
-
-                        arbor_trace_path = canata_out_dir / f"gid_{node_id}-tag_0.csv"
-                        if arbor_trace_path.exists():
-                            arbor_trace_df = pd.read_csv(arbor_trace_path, sep=",")
-                            times_arbor = arbor_trace_df.iloc[:, 0]
-                            traces_arbor = arbor_trace_df.iloc[:, 1]
-                            ax.plot(times_arbor, traces_arbor, label="arbor")
-
-                        ax.set_ylabel("mV")
-                        ax.set_xlabel("ms")
-                        ax.legend(loc="upper right")
                         mechanism = (
                             node_types.loc[
                                 node_types["node_type_id"].index.values == node_id,
@@ -128,12 +117,30 @@ for report_name, report in cfg["reports"].items():
                             .split(".")[0]
                             .split("_fit")[-1]
                         )
+
+                        arbor_trace_path = canata_out_dir / f"gid_{node_id}-tag_0.csv"
+                        if arbor_trace_path.exists():
+                            arbor_trace_df = pd.read_csv(arbor_trace_path, sep=",")
+                            times_arbor = arbor_trace_df.iloc[:, 0]
+                            traces_arbor = arbor_trace_df.iloc[:, 1]
+                            delta = np.sum((traces_arbor.values - data[:, idx])**2)
+                            total_arbor = np.sum(traces_arbor.values**2)
+                            total_bmtk = np.sum(data[:, idx]**2)
+                            max_bmtk = np.max(np.abs(data[:, idx]))
+                            if (delta/total_arbor > 0.001 or np.isnan(total_arbor)) and not np.isnan(max_bmtk) and max_bmtk < 200:
+                                print(f"| {node_id:>10}{mechanism:<10} | {delta/total_arbor:.3f} | {delta:.3f} | {total_arbor:.3f}|  {total_bmtk:.3f} |")
+                            ax.plot(times_arbor, traces_arbor, label="arbor")
+
+                        ax.set_ylabel("mV")
+                        ax.set_xlabel("ms")
+                        ax.legend(loc="upper right")
                         ax.set_title(labels_lu.loc[node_id]["name"] + mechanism)
                         if args.save_as is not None:
-                            save_path = f"trace.{node_id}{mechanism}.{args.save_as}.png"
+                            save_path = f"trace.{node_id}{mechanism}.{args.save_as}.pdf"
                             plt.tight_layout()
                             os.makedirs(args.save_dir, exist_ok=True)
                             fig.savefig(os.path.join(args.save_dir, save_path))
+                        plt.close(fig)
 
 if args.show:
     plt.tight_layout()
