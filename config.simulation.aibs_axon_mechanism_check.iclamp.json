@@ -1,7 +1,7 @@
 {
   "manifest": {
     "$BASE_DIR": ".",
-    "$OUTPUT_DIR": "$BASE_DIR/output_axon_iclamp_mechanism_check_dL5",
+    "$OUTPUT_DIR": "$BASE_DIR/output_axon_iclamp_mechanism_check_dL5_dt001",
     "$INPUT_DIR": "$BASE_DIR/inputs",
     "$NETWORK_DIR": "$BASE_DIR/network_axon_mechanism_check",
     "$COMPONENT_DIR": "$BASE_DIR/components"
@@ -9,7 +9,7 @@
 
   "run": {
     "tstop": 9000.0,
-    "dt": 0.1,
+    "dt": 0.001,
     "dL": 5.0,
     "spike_threshold": -15,
     "nsteps_block": 5000

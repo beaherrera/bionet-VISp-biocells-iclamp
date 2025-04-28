@@ -1,0 +1,1792 @@
+{
+  "locations": {
+    "VisL1": {
+      "i1Htr3a": {
+        "ncells": 4363,
+        "ei": "i",
+        "depth_range": [
+          50.0,
+          100.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000001,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Ca_LVA.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000002,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Kv2like.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000003,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Kd.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000004,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Ca_HVA.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000005,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Ih.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000006,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_NaV.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000007,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Im_v2.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000008,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_SK.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000009,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_Kv3_1.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000010,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_K_T.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 100000011,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit_g_pas.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          },
+          {
+            "node_type_id": 478107198,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "478107198_fit.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-192819.04.02.01_491119743_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.465523998
+          }
+        ]
+      }
+    },
+    "VisL23": {
+      "i23Htr3a": {
+        "ncells": 4845,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000012,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Im_v2.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000013,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Kv2like.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000014,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_SK.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000015,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Kv3_1.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000016,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_g_pas.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000017,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_K_T.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 475622793,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000018,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Ca_HVA.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000019,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_NaV.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000020,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Ca_LVA.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000021,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Kd.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          },
+          {
+            "node_type_id": 100000022,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "475622793_fit_Ih.json",
+            "morphology": "Htr3a-Cre_NO152_Ai14-185553.05.01.01_491119938_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.1589246330000003
+          }
+        ]
+      },
+      "i23Pvalb": {
+        "ncells": 2927,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "node_type_id": 484635029,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000023,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Im_v2.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000024,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Ca_LVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000025,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Ca_HVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000026,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Kd.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000027,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Kv3_1.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000028,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Ih.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000029,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_g_pas.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000030,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_Kv2like.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000031,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_K_T.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000032,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_SK.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          },
+          {
+            "node_type_id": 100000033,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "484635029_fit_NaV.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-201791.05.01.01_496079599_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.414963205
+          }
+        ]
+      },
+      "i23Sst": {
+        "ncells": 2120,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000034,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Im_v2.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000035,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Ca_LVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000036,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Ca_HVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000037,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Kv2like.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000038,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_SK.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000039,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_g_pas.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000040,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Kv3_1.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 473540161,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000041,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_K_T.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000042,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Kd.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000043,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_Ih.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          },
+          {
+            "node_type_id": 100000044,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "473540161_fit_NaV.json",
+            "morphology": "Sst-IRES-Cre_Ai14-182533.03.01.01_491770708_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.623284892
+          }
+        ]
+      }
+    },
+    "VisL4": {
+      "e4Nr5a1": {
+        "ncells": 5491,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000045,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_SK.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000046,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Im.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 386049446,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000047,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_K_P.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000048,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_NaTs.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000049,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Ca_HVA.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000050,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Ih.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000051,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Nap.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000052,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_K_T.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000053,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Kv3_1.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000054,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_g_pas.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          },
+          {
+            "node_type_id": 100000055,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "386049446_fit_Ca_LVA.json",
+            "morphology": "Nr5a1-Cre_Ai14-177334.05.01.01_491459171_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.922590608
+          }
+        ]
+      },
+      "e4Rorb": {
+        "ncells": 11898,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000056,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_K_T.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000057,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Im_v2.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000058,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_SK.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000059,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_NaV.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000060,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Kv3_1.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000061,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_g_pas.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000062,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Ih.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000063,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Kd.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000064,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Ca_LVA.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000065,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Kv2like.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 100000066,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit_Ca_HVA.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          },
+          {
+            "node_type_id": 485836906,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "485836906_fit.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-204764.04.01.01_496001039_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.380587341
+          }
+        ]
+      },
+      "e4Scnn1a": {
+        "ncells": 13728,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000067,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Ca_LVA.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000068,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_SK.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000069,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Im.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000070,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Nap.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000071,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_K_T.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000072,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Ca_HVA.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000073,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_g_pas.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000074,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Kv3_1.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000075,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_Ih.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000076,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_K_P.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 469798159,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          },
+          {
+            "node_type_id": 100000077,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "469798159_fit_NaTs.json",
+            "morphology": "Scnn1a-Tg3-Cre_Ai14-180214.05.01.01_491253802_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.744777652
+          }
+        ]
+      },
+      "e4other": {
+        "ncells": 14644,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000078,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_K_P.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000079,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Ca_HVA.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000080,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Ca_LVA.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 483061182,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000081,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Kv3_1.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000082,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Ih.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000083,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_g_pas.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000084,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_NaTs.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000085,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_K_T.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000086,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Nap.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000087,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_Im.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          },
+          {
+            "node_type_id": 100000088,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "483061182_fit_SK.json",
+            "morphology": "Cux2-CreERT2_Ai14-198017.05.01.01_496121314_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.883874526
+          }
+        ]
+      },
+      "i4Pvalb": {
+        "ncells": 4461,
+        "ei": "i",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000089,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Ca_LVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000090,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_SK.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000091,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Kv2like.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000092,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Ca_HVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000093,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_g_pas.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000094,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Ih.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000095,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Kv3_1.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000096,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Kd.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000097,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_NaV.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 487667205,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000098,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_Im_v2.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          },
+          {
+            "node_type_id": 100000099,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "487667205_fit_K_T.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212813.03.01.01_496163999_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.768003082
+          }
+        ]
+      }
+    },
+    "VisL5": {
+      "e5Rbp4": {
+        "ncells": 26846,
+        "ei": "e",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000100,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_K_P.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000101,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_SK.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000102,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Im.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000103,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_NaTs.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000104,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Kv3_1.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000105,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_g_pas.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000106,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Ih.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000107,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Ca_LVA.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000108,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Nap.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000109,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_K_T.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 100000110,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit_Ca_HVA.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          },
+          {
+            "node_type_id": 471129934,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471129934_fit.json",
+            "morphology": "Rbp4-Cre_KL100_Ai14-180747.06.01.01_495335491_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.527764895
+          }
+        ]
+      },
+      "e5noRbp4": {
+        "ncells": 6712,
+        "ei": "e",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000111,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_NaTs.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000112,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_K_P.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000113,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Kv3_1.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000114,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_g_pas.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000115,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Ih.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000116,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Ca_LVA.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 480351780,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000117,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Ca_HVA.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000118,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_K_T.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000119,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Nap.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000120,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_SK.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          },
+          {
+            "node_type_id": 100000121,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "480351780_fit_Im.json",
+            "morphology": "Rorb-IRES2-Cre-D_Ai14-197851.04.01.01_491770985_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.3989549830000003
+          }
+        ]
+      },
+      "i5Pvalb": {
+        "ncells": 2876,
+        "ei": "i",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000122,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_K_T.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000123,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Kv3_1.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000124,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_g_pas.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000125,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_SK.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000126,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Im_v2.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000127,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Kv2like.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000128,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_NaV.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000129,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Ca_LVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000130,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Ih.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 486783119,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000131,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Kd.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          },
+          {
+            "node_type_id": 100000132,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "486783119_fit_Ca_HVA.json",
+            "morphology": "Pvalb-IRES-Cre_Ai14-212809.03.01.01_500961658_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.3757251000000004
+          }
+        ]
+      },
+      "i5Sst": {
+        "ncells": 2538,
+        "ei": "i",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000133,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Ca_HVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000134,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Ih.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 482690728,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000135,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Kd.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000136,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_NaV.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000137,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Ca_LVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000138,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_K_T.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000139,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_SK.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000140,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Im_v2.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000141,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Kv3_1.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000142,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_g_pas.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          },
+          {
+            "node_type_id": 100000143,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "482690728_fit_Kv2like.json",
+            "morphology": "Sst-IRES-Cre_Ai14-199390.05.01.01_492101025_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -2.911567525
+          }
+        ]
+      }
+    },
+    "VisL6": {
+      "e6Ntsr1": {
+        "ncells": 57202,
+        "ei": "e",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000144,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Ih.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000145,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_K_T.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000146,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_g_pas.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000147,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Nap.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000148,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Kv3_1.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 471819401,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000149,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Ca_LVA.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000150,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_NaTs.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000151,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Im.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000152,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_SK.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000153,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_K_P.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          },
+          {
+            "node_type_id": 100000154,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "471819401_fit_Ca_HVA.json",
+            "morphology": "Ntsr1-Cre_Ai14-181184.02.02.01_491771181_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.847567702
+          }
+        ]
+      },
+      "i6Sst": {
+        "ncells": 4626,
+        "ei": "i",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "node_type_id": 100000155,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Kd.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000156,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Ih.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000157,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_NaV.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000158,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Ca_HVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000159,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Ca_LVA.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000160,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_K_T.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000161,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Im_v2.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000162,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_SK.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000163,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_g_pas.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 476754635,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000164,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Kv2like.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          },
+          {
+            "node_type_id": 100000165,
+            "model_type": "biophysical",
+            "model_template": "ctdb:Biophys1.hoc",
+            "dynamics_params": "476754635_fit_Kv3_1.json",
+            "morphology": "Sst-IRES-Cre_Ai14-188741.06.02.01_491771387_m.swc",
+            "model_processing": "aibs_perisomatic",
+            "rotation_angle_zaxis": -3.9631190480000003
+          }
+        ]
+      }
+    }
+  },
+  "inner_radial_range": [
+    1.0,
+    400.0
+  ],
+  "outer_radial_range": [
+    400.0,
+    845.0
+  ]
+}

@@ -76,6 +76,7 @@ def get_nodes_labels_lu(pop):
 
         # nodes nodes_df[['node_ids', 'node_type_id', 'pop_name']].set_index(node_ids)
 
+
 print("| Tag | RMS Error | Delta | Arbor | BMTK |")
 for report_name, report in cfg["reports"].items():
     if report["module"] == "membrane_report":
@@ -123,12 +124,18 @@ for report_name, report in cfg["reports"].items():
                             arbor_trace_df = pd.read_csv(arbor_trace_path, sep=",")
                             times_arbor = arbor_trace_df.iloc[:, 0]
                             traces_arbor = arbor_trace_df.iloc[:, 1]
-                            delta = np.sum((traces_arbor.values - data[:, idx])**2)
+                            delta = np.sum((traces_arbor.values - data[:, idx]) ** 2)
                             total_arbor = np.sum(traces_arbor.values**2)
-                            total_bmtk = np.sum(data[:, idx]**2)
+                            total_bmtk = np.sum(data[:, idx] ** 2)
                             max_bmtk = np.max(np.abs(data[:, idx]))
-                            if (delta/total_arbor > 0.001 or np.isnan(total_arbor)) and not np.isnan(max_bmtk) and max_bmtk < 200:
-                                print(f"| {node_id:>10}{mechanism:<10} | {delta/total_arbor:.3f} | {delta:.3f} | {total_arbor:.3f}|  {total_bmtk:.3f} |")
+                            if (
+                                (delta / total_arbor > 0.001 or np.isnan(total_arbor))
+                                and not np.isnan(max_bmtk)
+                                and max_bmtk < 200
+                            ):
+                                print(
+                                    f"| {node_id:>10}{mechanism:<10} | {delta/total_arbor:.3f} | {delta:.3f} | {total_arbor:.3f}|  {total_bmtk:.3f} |"
+                                )
                             ax.plot(times_arbor, traces_arbor, label="arbor")
 
                         ax.set_ylabel("mV")
